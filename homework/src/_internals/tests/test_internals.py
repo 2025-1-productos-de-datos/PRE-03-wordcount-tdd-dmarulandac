@@ -2,8 +2,8 @@
 import subprocess
 import sys
 
-from ...wordcount import read_all_lines
 from ..parse_args import parse_args
+from ..read_all_lines import read_all_lines
 
 
 def test_parse_args():
